@@ -29,5 +29,5 @@ jobs:
         cache: 'npm'
         credentials: ${{ secrets.gcp_credentials }}
     - run: npm i
-    - run: npm run build
+    - run: npm run build --if-present
         
