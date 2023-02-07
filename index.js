@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get("/", async (req, res) => {
-  res.json({ status: "NOT NOT OK" });
+  res.json({ status: "NOT OK" });
 });
 
 app.listen(port, () => {
